@@ -2,7 +2,7 @@
   "id": "swrpg-dice-into-sw5e",
   "title": "SWRPG Narrative Die for SW5e",
   "description": "Rolls a Star Wars RPG-style narrative d8 (Despair / Threat / Neutral / Advantage / Triumph) alongside attacks, skill checks, ability checks, and saving throws.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
@@ -21,6 +21,13 @@
       {
         "id": "dnd5e",
         "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
         "compatibility": {}
       }
     ]
